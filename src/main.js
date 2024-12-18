@@ -278,7 +278,7 @@ const prevButton = document.getElementById("prevButton");
 const nextButton = document.getElementById("nextButton");
 const progressBar = document.getElementById("progress");
 
-let currentPage = 1;
+let currentPage = 0;
 
 function updatePage() {
   const { content } = pages[currentPage];
